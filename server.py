@@ -1,7 +1,7 @@
 import socket
 
 ser=socket.socket()
-ser.bind(("192.168.43.221",3400))
+ser.bind(("ip address or host name",3400))
 print("server is started")
 ser.listen()
 print("server is wating for clinents request")
