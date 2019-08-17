@@ -1,7 +1,7 @@
 import socket
 
 soc=socket.socket()
-soc.connect(("DESKTOP-R59EFVA",3400))
+soc.connect(("ip address or host name",3400))
 
 while True:
      data=input()
